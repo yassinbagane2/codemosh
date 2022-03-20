@@ -217,6 +217,14 @@ nav{
     display: flex;
     flex-direction: column;
 }
+.user__info a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.user__info .tag{
+    color: rgba(0, 0, 0,0.5);
+}
 .tweet p{
     padding: 18px;
 }
@@ -295,12 +303,4 @@ nav{
 
 .products a{
     color: #CB46D3;
-}
-.scroll{
-    border: none;
-    background-color: #e23d76;
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    margin-right: 90%;
 }
